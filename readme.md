@@ -11,5 +11,7 @@ Make sure all files are in the same folder and navigate to it in a terminal. The
 
 `$ python3 main.py`
 
+[**Demo**](https://twitter.com/notmattjani/status/1303294341155356673)
+
 #### Acknowledgements
 This is a Python implementation of the book "[Creative Cursing](https://www.amazon.co.uk/Creative-Cursing-Profanity-Generator-CREATIVE/dp/B00QPC520A/ref=sr_1_1)" by filthymouths Sarah Royal and Jillian Panarese, with some minor adaptations. Keep this script to hand and take your cursing to a whole new level.
