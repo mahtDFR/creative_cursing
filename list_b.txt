@@ -108,7 +108,6 @@ for-brains
 eyes
 face
 johnson
-Boris Johnson
 rimmer
 cockwomble
 crack
@@ -161,16 +160,12 @@ clunge
 gash-face
 bottom
 fellatio
-smunt
-fadge
-toves
 mimsy
 harrumph
 bauble
 rump
 runt
 Jack-of-clubs
-poogle
 pancake
 smell
 tripe
@@ -182,7 +177,6 @@ toad
 cad
 mittens
 sod
-thiddock
 sponge
 walrus
 lizard
@@ -267,3 +261,13 @@ twot
 twazzock
 shut-in
 goblin
+blighter
+plopper
+arms
+butter
+nutter
+region
+tart
+guts
+interferer
+nonce

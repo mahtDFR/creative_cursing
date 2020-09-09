@@ -180,7 +180,6 @@ big
 ploppy
 cackling
 soft
-al dente
 yellow
 custard-coloured
 twitching
@@ -301,3 +300,20 @@ wind-up
 buttoned-up
 loudmouthed
 gobby
+horrid
+ploppy
+tarty
+distinct
+arsewiping
+singing
+soppy
+cheap
+metallic
+shitty
+nasty
+thundering
+gassy
+thunderous
+gimpy
+coarse
+spicy
