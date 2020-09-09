@@ -23,7 +23,7 @@ while True:
         # make random combination
         curse = (random.choice(a) + " " + random.choice(b))
 
-        input = random.randint(1, 6)
+        input = random.randint(1, 9)
 
         # e.g. "Silly bitch", "Fuck Trump"
         if input == 1:
@@ -64,13 +64,24 @@ while True:
         elif input == 6:
             curse = curse.upper() + "."
 
+        # e.g. Same as above but it tweets it to Donald Trump
+        elif input == 7:
+            curse = "@realDonaldTrump " + curse.upper()
+
+        # e.g. Same as above but it tweets it to Nigel Farage
+        elif input == 8:
+            curse = "@Nigel_Farage " + curse.upper()
+
+        # e.g. Same as above but it tweets it to Boris Johnson
+        elif input == 9:
+            curse = "@BorisJohnson " + curse.upper()
+
         try:
             # post result to twitter
             print('Posting tweet "' + curse + '" to https://twitter.com/creative_curses')
 
-            # Tweet action (also refers to the separate api_keys file)
+            # # Tweet action (also refers to the separate api_keys file)
             api_keys.api.update_status(curse)
-
             # # for debugging print instead
             # print(curse)
 

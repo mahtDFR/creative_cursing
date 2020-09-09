@@ -1,0 +1,17 @@
+[Unit]
+Description = creative_curses tweet script
+After = network.target
+
+[Service]
+Type = simple
+WorkingDirectory = /home/pi/creative_cursing
+ExecStart = /usr/bin/python3 /home/pi/creative_cursing/Tweet.py
+Restart = always
+RestartSec = 10
+StandardOutput = syslog
+StandardError = syslog
+SyslogIdentifier = curses
+User = pi
+
+[Install]
+WantedBy = multi-user.target
