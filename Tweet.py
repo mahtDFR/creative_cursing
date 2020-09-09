@@ -3,22 +3,23 @@ import random, time, logging, api_keys
 # logging stuff
 # logging.basicConfig(filename='creative_curses.log',level=logging.DEBUG,format='%(asctime)s %(message)s', datefmt='%d/%m/%Y %I:%M %p ::')
 
-# main application starts here
-# open list_a.txt
-with open ("list_a.txt") as list_a:
-    a = [line.rstrip() for line in list_a]
-    list_a.close()
-
-# open list_b.txt
-with open ("list_b.txt") as list_b:
-    b = [line.rstrip() for line in list_b]
-    list_b.close()
-
-minutes_delay = 1
-delay = minutes_delay*60
-
 # main loop
 while True:
+
+        # moved file reading to the loop so the lists can be updated without restarting the service
+
+        # open list_a.txt
+        with open("list_a.txt") as list_a:
+            a = [line.rstrip() for line in list_a]
+            list_a.close()
+
+        # open list_b.txt
+        with open("list_b.txt") as list_b:
+            b = [line.rstrip() for line in list_b]
+            list_b.close()
+
+        minutes_delay = 10
+        delay = minutes_delay * 60
 
         # make random combination
         curse = (random.choice(a) + " " + random.choice(b))
@@ -77,14 +78,11 @@ while True:
             curse = "@BorisJohnson " + curse.upper()
 
         try:
-            # post result to twitter
+            # Tweet!
+            api_keys.api.update_status(curse) # Tweet action (also refers to the separate api_keys file)
+            # print(curse) # Print instead for debugging
+
             print('Posting tweet "' + curse + '" to https://twitter.com/creative_curses')
-
-            # # Tweet action (also refers to the separate api_keys file)
-            api_keys.api.update_status(curse)
-            # # for debugging print instead
-            # print(curse)
-
             # logging.debug('Posted tweet "' + curse + '" to https://twitter.com/creative_curses')
 
             # wait for minutes_delay and begin again
