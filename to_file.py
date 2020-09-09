@@ -33,7 +33,7 @@ while count < 1000000:
 
 # When total amount is achieved, dump the list to a file
 else:
-    print("Writing ONE MILLION results to file 'creative_curses.txt'. Please be patient, " + curse.lower() + ".")
+    print("Writing ONE MILLION results to file 'creative_curses.txt'. Please be patient, you " + curse.lower() + ".")
     with open("creative_curses.txt", "w") as f:
         f.write("\n".join(creative_curses))
         f.close()
