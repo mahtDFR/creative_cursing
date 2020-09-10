@@ -1,4 +1,6 @@
-import random, time, api_keys
+import random, time, api_keys, led_indicator
+
+led_indicator.led_startup()
 
 while True:
 
@@ -10,23 +12,26 @@ while True:
         b = [line.rstrip() for line in list_b]
         list_b.close()
 
-    minutes_delay = 10
+    minutes_delay = 5
     delay = minutes_delay * 60
 
     payload = []
 
-    while len(payload) < 12:
+    while len(payload) < 6:
 
         curse = (random.choice(a) + " " + random.choice(b))
         curse = curse.capitalize()
         list.append(payload, curse)
 
     else:
-        tweet = '\n'.join(payload)
+        tweet = '. '.join(payload)
+        tweet = tweet + "."
+
         print("Sending tweet to @creative_curses!\n")
 
         # print(tweet) #debug
-        # time.sleep(15) #debug
+        # time.sleep(3) #debug
 
         api_keys.api.update_status(tweet)
+        led_indicator.tweet_sent()
         time.sleep(delay)
