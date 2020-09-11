@@ -5,7 +5,7 @@ After = network.target
 [Service]
 Type = simple
 WorkingDirectory = /home/pi/creative_cursing
-ExecStart = /usr/bin/python3 /home/pi/creative_cursing/multi_insult_tweet.py
+ExecStart = /usr/bin/python3 /home/pi/creative_cursing/single_tweet.py
 Restart = always
 StandardOutput = syslog
 StandardError = syslog
