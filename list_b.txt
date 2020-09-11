@@ -42,6 +42,7 @@ blorp
 blot
 blower
 bollock
+bollocks
 boner
 booger
 boot
@@ -49,15 +50,15 @@ bore
 bottom
 box
 boy
-bozo
 breast
 breath
 brute
 bucket
 bum
 bumhole
+bumper
 burger
-burgler
+burglar
 bus
 bush
 butler
@@ -109,7 +110,6 @@ eyesore
 face
 fanny
 fatty
-fellatio
 fetish
 fiddler
 fiend
@@ -121,7 +121,6 @@ fondler
 fool
 football
 foreskin
-fuckbumper
 fungus
 gammon
 gargler
@@ -139,7 +138,6 @@ gremlin
 guts
 halfwit
 hamster
-harrumph
 hasbeen
 hat
 head
@@ -175,6 +173,7 @@ lout
 lover
 lowlife
 lummock
+lummox
 lump
 maggot
 magician
@@ -201,7 +200,6 @@ muppet
 mushroom
 nancy
 nappy
-nerd
 newt
 ninny
 nonce
@@ -274,16 +272,13 @@ slammer
 slapper
 slime
 slimeball
-slit
 slug
 smell
 smellfungus
-smellyface
 snail
 sniffer
 sock
 sod
-softie
 sow
 spanner
 spleen
@@ -308,7 +303,6 @@ thumb
 tickler
 tit
 titcake
-tits
 toad
 tool
 trash
