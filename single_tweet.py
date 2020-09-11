@@ -1,9 +1,9 @@
 import random, time, api_keys
 import led_indicator
 
-led_indicator.led_startup()
 minutes_delay = 15
 delay = minutes_delay * 60
+led_indicator.led_startup()
 
 while True:
 
