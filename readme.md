@@ -3,7 +3,7 @@
 
 **Be creative when you hate someone.** Too often we express our blinding rage for one another in trite and clichéd
 ways (stupid head!) You now have endless combinations of uncensored verbal abuse and x-rated comebacks to unleash on your parents, siblings, friends, and enemies alike.
-Husband hogging the covers? Boss reprimanding you? Aggressive motorists on the expressway? For the preservation of social harmony everywhere, keep your physical violence at bay and simply run this software for a creative and socially unacceptable insult.<BR>
+Husband hogging the covers? Boss reprimanding you? Aggressive motorists on the motorway? For the preservation of social harmony everywhere, keep your physical violence at bay and simply run this software for a creative and socially unacceptable insult.<BR>
 
 #### How to use
 
