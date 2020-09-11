@@ -22,4 +22,4 @@ Or run:
 #### Acknowledgements
 Inspired by the book "[Creative Cursing](https://www.amazon.co.uk/Creative-Cursing-Profanity-Generator-CREATIVE/dp/B00QPC520A/ref=sr_1_1)" by filthymouths Sarah Royal and Jillian Panarese.
 
-This project has now developed into an automated Twitterbot, follow [@creative_curses](https://twitter.com/creative_curses) for randomly generated horridness.
+This project has developed into a horrid Twitterbot. Follow [@creative_curses](https://twitter.com/creative_curses) for randomly generated awfulness.
