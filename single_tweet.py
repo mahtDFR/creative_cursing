@@ -1,7 +1,7 @@
 import random, time, api_keys
 import led_indicator
 
-minutes_delay = 15
+minutes_delay = 5
 delay = minutes_delay * 60
 led_indicator.led_startup()
 
@@ -18,7 +18,7 @@ while True:
     b = [line.rstrip() for line in b]
 
     curse = (random.choice(a) + " " + random.choice(b))
-    tweet = random.choice([curse.capitalize(), curse.upper()]) + (random.choice(["!", ".", ""]))
+    tweet = curse.upper()
 
     # # for debugging
     # print(tweet)

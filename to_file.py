@@ -18,7 +18,7 @@ print("Generating ONE MILLION results. Please be patient, you " + curse.lower() 
 
 while count < 1000000:
     curse = (random.choice(a) + " " + random.choice(b))
-    tweet = random.choice([curse.capitalize(), curse.upper()]) + (random.choice(["!", ".", ""]))
+    tweet = curse.upper()
     list.append(curses, tweet)
     count+=1
 
