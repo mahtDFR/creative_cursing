@@ -1,4 +1,4 @@
-### Creative Cursing - A mix 'n' match profanity generator (using Python)
+### Creative Cursing - A mix 'n' match profanity generator
 *Meat muncher! Panty pincher! Butt fungus!*
 
 **Be creative when you hate someone.** Too often we express our blinding rage for one another in trite and clichéd
@@ -7,13 +7,13 @@ Husband hogging the covers? Boss reprimanding you? Aggressive motorists on the m
 
 #### How to use
 
-Make sure all files are in the same folder and navigate to it in a terminal. Then run:
+Make sure all files are in the same folder and navigate to it in a terminal. Then call:
 
 `$ python3 main.py`
 
 [**Demo**](https://twitter.com/notmattjani/status/1303294341155356673)
 
-Or run:
+Or:
 
 `$ python3 to_file.py`
 
@@ -22,4 +22,4 @@ Or run:
 #### Acknowledgements
 Inspired by the book "[Creative Cursing](https://www.amazon.co.uk/Creative-Cursing-Profanity-Generator-CREATIVE/dp/B00QPC520A/ref=sr_1_1)" by filthymouths Sarah Royal and Jillian Panarese.
 
-This project has developed into a horrid Twitterbot. Follow [@creative_curses](https://twitter.com/creative_curses) for randomly generated awfulness.
+This project has developed into a horrid Twitterbot. Follow [@creative_curses](https://twitter.com/creative_curses) for randomly-generated awfulness.
